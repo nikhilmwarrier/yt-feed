@@ -8,11 +8,17 @@ Provides a minimalist interface to access the latest videos from your YouTube (I
 - Node.js (and npm)
 - A URL to your atom/xml subscription feed from Invidious. [(Get one)](#how-to-get-a-subscription-feed)
 
-## Run
+## Setup
 
 ```bash
 $ git clone 'https://github.com/nikhilmwarrier/yt-feed'
 $ cd 'yt-feed'
+$ npm install
+```
+
+## Run
+
+```bash
 $ node index.js
 ```
 
