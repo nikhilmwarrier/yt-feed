@@ -20,5 +20,5 @@ $ node index.js
 
 1. Log in to (or sign up for) an account on [an Invidious instance](https://invidio.us/).
 2. Navigate to https://<your-instance-url>/feed/subscriptions
-3. Copy the URL to your atom/xml feed.
+3. Copy the feed URL and set it to a new env variable called `YT_XML_FEED_URL`.
    ![Image showing the location of the subscription feed icon.](./invidious_instructions.png)
